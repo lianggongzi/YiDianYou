@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.Setting.MoneyActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:layout_marginLeft="16dp"
+                android:text="选择型收款方式："
+                android:textColor="@color/colorAccent"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextView_16dp_center"
+                    android:text="收款1："
+                     />
+
+                <EditText
+                    android:id="@+id/gathering1_name_edt"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:singleLine="true"
+                    android:textSize="18dp" />
+
+                <TextView
+                    style="@style/TextView_16dp_center"
+                    android:text="金额："
+                    />
+
+                <EditText
+                    android:id="@+id/gathering1_money_edt"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:inputType="number|numberDecimal"
+                    android:singleLine="true"
+                    android:textSize="18dp" />
+
+                <TextView
+                    style="@style/TextView_16dp_center"
+                    android:text="元"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextView_16dp_center"
+                    android:text="收款2："
+                     />
+
+                <EditText
+                    android:id="@+id/gathering2_name_edt"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:singleLine="true"
+                    android:textSize="18dp" />
+
+                <TextView
+                    style="@style/TextView_16dp_center"
+                    android:text="金额："
+                  />
+
+                <EditText
+                    android:id="@+id/gathering2_money_edt"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:inputType="number|numberDecimal"
+                    android:singleLine="true"
+                    android:textSize="18dp" />
+
+                <TextView
+                  style="@style/TextView_16dp_center"
+                    android:text="元"
+                     />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextView_16dp_center"
+                    android:text="收款3："
+                 />
+
+                <EditText
+                    android:id="@+id/gathering3_name_edt"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:singleLine="true"
+                    android:textSize="18dp" />
+
+                <TextView
+                    style="@style/TextView_16dp_center"
+                    android:text="金额："
+                     />
+
+                <EditText
+                    android:id="@+id/gathering3_money_edt"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:inputType="number|numberDecimal"
+                    android:singleLine="true"
+                    android:textSize="18dp" />
+
+                <TextView
+                    style="@style/TextView_16dp_center"
+                    android:text="元"
+                   />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextView_16dp_center"
+                    android:text="收款4："
+                   />
+
+                <EditText
+                    android:id="@+id/gathering4_name_edt"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:singleLine="true"
+                    android:textSize="18dp" />
+
+                <TextView
+                    style="@style/TextView_16dp_center"
+                    android:text="金额："
+                  />
+
+                <EditText
+                    android:id="@+id/gathering4_money_edt"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:inputType="number|numberDecimal"
+                    android:singleLine="true"
+                    android:textSize="18dp" />
+
+                <TextView
+                    style="@style/TextView_16dp_center"
+                    android:text="元"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextView_16dp_center"
+                    android:text="收款5："
+                    />
+
+                <EditText
+                    android:id="@+id/gathering5_name_edt"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:singleLine="true"
+                    android:textSize="18dp" />
+
+                <TextView
+                    style="@style/TextView_16dp_center"
+                    android:text="金额："
+                     />
+
+                <EditText
+                    android:id="@+id/gathering5_money_edt"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:inputType="number|numberDecimal"
+                    android:singleLine="true"
+                    android:textSize="18dp" />
+
+                <TextView
+                    style="@style/TextView_16dp_center"
+                    android:text="元"
+                     />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/collection_money_renshu_btn"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_backgroud"
+                android:text="确认"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/collection_choose_sv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    >
+        <RadioGroup
+            android:id="@+id/collection_rg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginLeft="70dp"
+            >
+
+                <RadioButton
+                    android:id="@+id/collection_choose_rb1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:checked="true"
+                    android:paddingLeft="0dp"
+                    android:textSize="24dp" />
+
+                <RadioButton
+                    android:id="@+id/collection_choose_rb2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="24dp"
+                    android:paddingLeft="0dp"
+                    android:layout_gravity="center"
+                    />
+
+                <RadioButton
+                    android:id="@+id/collection_choose_rb3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="0dp"
+                    android:textSize="24dp"
+                    android:layout_gravity="center"
+
+                    />
+
+                <RadioButton
+                    android:id="@+id/collection_choose_rb4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:paddingLeft="0dp"
+                    android:textSize="24dp" />
+
+                <RadioButton
+                    android:id="@+id/collection_choose_rb5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:paddingLeft="0dp"
+                    android:textSize="24dp"
+                    />
+
+
+        </RadioGroup>
+
+
+    <LinearLayout
+        android:id="@+id/collection_shuru_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        >
+        <EditText
+            android:id="@+id/collection_money_edt"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:background="@drawable/edt_backout_blue"
+            android:gravity="center"
+            android:inputType="number|numberDecimal"
+            android:hint="请输入金额"
+            android:textColor="@color/red"
+            android:textSize="30dp" />
+        <TextView
+            android:id="@+id/collection_shuru_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="输入金额"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+           />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/background_green"
+                android:focusable="true"
+                android:focusableInTouchMode="true">
+
+                <EditText
+                    android:id="@+id/collection_edt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="10dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:text="1"
+                    android:textColor="@color/black"
+                    android:textSize="24dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="输入人数"
+                android:textColor="@color/black"
+                android:textSize="22dp" />
+
+            <Button
+                android:id="@+id/collection_choose_btn"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/btn_backgroud"
+                android:text="确定"
+                android:textColor="@color/white"
+                android:layout_marginBottom="30dp"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
