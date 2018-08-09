@@ -4,15 +4,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
-import android.text.TextUtils;
 import android.widget.Button;
-import android.widget.Toast;
 
-import com.duobao.yidianyou.activity.MainActivity;
 import com.duobao.yidianyou.R;
 import com.duobao.yidianyou.activity.LoginActivity;
 import com.duobao.yidianyou.utils.ClearWriteEditText;
-import com.duobao.yidianyou.utils.ProgressDialogUtil;
+import com.duobao.yidianyou.utils.CustomProgressDialog;
 import com.duobao.yidianyou.utils.SPUtils;
 
 import butterknife.BindView;
@@ -97,21 +94,26 @@ public class EquipmentActivity extends AppCompatActivity {
 //            Toast.makeText(this, "密码不一样", Toast.LENGTH_SHORT).show();
 //            equipmentPassword1Edt.setShakeAnimation();
 //        }
-        // 1.启动
-        ProgressDialogUtil.show(this, "锋哥。。。");
-        // 2.模拟耗时操作
-        new Thread(new Runnable() {
 
-            @Override
-            public void run() {
-                try {
-                    Thread.sleep(3000);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-                //3.隐藏
-                ProgressDialogUtil.dismiss();
-            }
-        }).start();
+
+
+//        // 1.启动
+//        ProgressDialogUtil.show(this, "锋哥。。。");
+//        // 2.模拟耗时操作
+//        new Thread(new Runnable() {
+//
+//            @Override
+//            public void run() {
+//                try {
+//                    Thread.sleep(3000);
+//                } catch (InterruptedException e) {
+//                    e.printStackTrace();
+//                }
+//                //3.隐藏
+//                ProgressDialogUtil.dismiss();
+//            }
+//        }).start();
+
+        CustomProgressDialog.showLoading(this,"锋哥...");
     }
 }
